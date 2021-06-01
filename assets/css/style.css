@@ -26,8 +26,9 @@ select {
   width: 40px;
   height: 40px;
   border: 3px solid #3c847c;
-  border-radius: 5px 5px 5px 5px;
-  color: #3c847c;
+  background: #3c847c;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
   cursor: pointer;
   font-size: 20px;
 }
