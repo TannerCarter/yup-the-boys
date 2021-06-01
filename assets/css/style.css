@@ -13,6 +13,14 @@
   border-radius: 5px 5px 5px 5px;
   color: black;
 }
+/* Black outline won't appear on input */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+
 /*Search button colorizes it and rounds edges and changes size*/
 .searchBtn {
   width: 40px;
