@@ -13,3 +13,25 @@
   border-radius: 5px 5px 5px 5px;
   color: black;
 }
+/*Search button colorizes it and rounds edges and changes size*/
+.searchBtn {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: #3c847c;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*colorizes the footer bolds the text and changes the size of the text */
+.foot {
+  background: #3c847c;
+  background-size: 150%;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*colorizes the nav bar and centers the text*/
+.nav {
+  background: #3c847c;
+  text-align: center;
+}
