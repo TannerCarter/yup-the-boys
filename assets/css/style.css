@@ -35,3 +35,37 @@
   background: #3c847c;
   text-align: center;
 }
+
+/*Forms a black line under the picture on the home screen making it easier to read the discription of the houses*/
+.description {
+  margin-top: 45px;
+  border-top: 5px solid black;
+}
+/*colorizes previous button below the text in discription rounds edges and is centered of on the left of the container*/
+.prevBtn {
+  margin-top: 2px;
+  width: 70p;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  float: left;
+}
+/*does the same thing as the prevBtn but positions it on the oposite side*/
+.nextBtn {
+  margin-top: 2px;
+  width: 70px;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  float: right;
+}
