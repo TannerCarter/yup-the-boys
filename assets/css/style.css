@@ -1,0 +1,96 @@
+/*Resizes the Search bar*/
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+/*makes a border around the serch bar and rounds the edges*/
+.searchInput {
+  width: 100%;
+  border: 3px solid #3c847c;
+  padding: 15px;
+  height: 40px;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+/*Search button colorizes it and rounds edges and changes size*/
+.searchBtn {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: #3c847c;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*colorizes the footer bolds the text and changes the size of the text */
+.foot {
+  background: #3c847c;
+  background-size: 150%;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*colorizes the nav bar and centers the text*/
+.nav {
+  background: #3c847c;
+  text-align: center;
+}
+
+/*Forms a black line under the picture on the home screen making it easier to read the discription of the houses*/
+.description {
+  margin-top: 45px;
+  border-top: 5px solid black;
+}
+/*colorizes previous button below the text in discription rounds edges and is centered of on the left of the container*/
+.prevBtn {
+  margin-top: 2px;
+  width: 70p;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  float: left;
+}
+/*does the same thing as the prevBtn but positions it on the oposite side*/
+.nextBtn {
+  margin-top: 2px;
+  width: 70px;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  float: right;
+}
+
+/* adds the text box with the size and fontsize for clarity*/
+.contactUs input,
+.contactUs textarea {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+/*the submit the contact information button colorizes it with rounded edges*/
+.contactUs button {
+  width: 70px;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
