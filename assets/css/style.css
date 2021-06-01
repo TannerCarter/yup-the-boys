@@ -1,0 +1,92 @@
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchInput {
+  width: 100%;
+  border: 3px solid #3c847c;
+  padding: 15px;
+  height: 40px;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+.searchBtn {
+  width: 40px;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 10px 10px 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.foot {
+  background: #3c847c;
+  background-size: 150%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav {
+  background: #3c847c;
+  text-align: center;
+}
+.description {
+  margin-top: 45px;
+  border-top: 5px solid black;
+}
+.prevBtn {
+  margin-top: 2px;
+  width: 70p;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  float: left;
+}
+.nextBtn {
+  margin-top: 2px;
+  width: 70px;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  float: right;
+}
+.contactUs input,
+.contactUs textarea {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.contactUs button {
+  width: 70px;
+  height: 40px;
+  background: #3c847c;
+  border: 3px solid #3c847c;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
