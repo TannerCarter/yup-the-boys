@@ -16,15 +16,22 @@ function searchCity(cityname) {
     console.log(response);
     console.log(propertyAPI);
 
+    var searchDiv = document.querySelector("#fillAddy");
+    var pElem = document.createElement("p");
+    var foundAddress = response.property[0].address.oneLine;
+    pElem.className = "styleforP";
+    pElem.innerHTML = foundAddress;
+    searchDiv.appendChild(pElem);
+
     var lon = response.property[0].location.latitude;
     var lat = response.property[0].location.longitude;
 
     var walkAPI =
-      "https://api.walkscore.com/score?&lon=" +
+      "https://maps.googleapis.com/maps/api/streetview?size=400x400&location=" +
       lon +
-      "&lat=" +
+      "," +
       lat +
-      "&wsapikey=c30f63511f7a9e21b45c7935bb0e6014";
+      "&key=AIzaSyC8HIJdWQvEw0hgqmcQwWqT4vKnuKgchfw";
 
     $.ajax({
       url: walkAPI,
@@ -32,10 +39,10 @@ function searchCity(cityname) {
       crossOrigin: "null",
       mode: "no-cors",
     }).then(function (response) {
-      console.log(response);
       console.log(walkAPI);
     });
   });
+
   var storearr = JSON.parse(localStorage.getItem("cityName"));
   if (storearr == +cityname) {
     storearr = [];

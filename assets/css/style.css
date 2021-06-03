@@ -103,3 +103,11 @@ select {
   cursor: pointer;
   font-size: 15px;
 }
+.addressTitle {
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 3px solid #3c847c;
+}
+.swim {
+  width: 400%;
+}
