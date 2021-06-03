@@ -64,7 +64,7 @@
             <div class="search">
               <input
                 type="text"
-                placeholder="Zip Code Here"
+                placeholder="Input Zip Code"
                 name="search"
                 class="searchInput"
                 id="searchCityInput"
@@ -74,12 +74,17 @@
               </button>
             </div>
 
-            <div class="mt-4">
-              <img
-                src="./assets/images/Bel-air.jpg"
-                alt="Picture of a Bel Air Mansion"
-                class="d-block max-w-full"
-              />
+            <div class="mt-4 propertyDescr">
+              <div id="fillImg"><img src="./assets/images/swimming.jpg" class="swim"></div>
+              <div class="fillAddress" id="fillAddy">
+                <h5 class="addressTitle">
+                  Searched Property Address:
+                </h5>
+                <p id="fillDescription"></p>
+                <button class="prevBtn" id="priorBtn">Previous</button>
+                <button class="nextBtn" id="postBtn">Next</button>
+              </div>
+  
             </div>
           </div>
 
@@ -119,12 +124,11 @@
                 "
               ></span>
               <h5 class="text-xl font-medium uppercase mb-4">
-                Searched Property:
+                
               </h5>
               <p></p>
               <p id="fillDescription"></p>
-              <button class="prevBtn" id="priorBtn">Previous</button>
-              <button class="nextBtn" id="postBtn">Next</button>
+              
             </div>
 
             <div class="md:w-1/3 md:px-4 xl:px-6 mt-8 md:mt-0 text-center">
