@@ -75,7 +75,7 @@
             </div>
 
             <div class="mt-4 propertyDescr">
-              <div id="fillImg"><img src="./assets/images/swimming.jpg" class="swim"></div>
+              <div id="fillImg"></div>
               <div class="fillAddress" id="fillAddy">
                 <h5 class="addressTitle">
                   Searched Property Address:
@@ -147,7 +147,9 @@
                 <label for="contact-name">Your Name</label>
                 <input type="text" id="contact-name" placeholder="Your Name" />
                 <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
+                <textarea id="contact-message" placeholder="" maxlength="250"></textarea>
+                <div class="maxLength"><span>Max Length of 250 Characters</span></div>
+                
                 <button type="submit">Submit</button>
               </form>
             </div>
@@ -157,7 +159,7 @@
     </div>
 
     <footer>
-      <p class="text-center py-6 md:py-12 foot">&copy; 2021 The Boys LLC.</p>
+      <p class="text-center foot">&copy; 2021 The Boys LLC.</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

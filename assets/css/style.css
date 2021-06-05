@@ -1,3 +1,7 @@
+body {
+  background: #3c847c;
+}
+
 /*Resizes the Search bar*/
 .search {
   width: 100%;
@@ -106,8 +110,21 @@ select {
 .addressTitle {
   font-weight: bold;
   font-size: 18px;
-  border-bottom: 3px solid #3c847c;
+  border-bottom: 1px solid #3c847c;
 }
-.swim {
-  width: 400%;
+.searchedImg {
+  height: 400px;
+  width: 800px;
+}
+.maxLength {
+  color: #757575;
+  padding-bottom: 10px;
+}
+.foot {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
