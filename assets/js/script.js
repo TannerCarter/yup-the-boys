@@ -40,6 +40,12 @@ function searchCity(cityname) {
       mode: "no-cors",
     }).then(function (response) {
       console.log(walkAPI);
+
+      var imgSearch = document.querySelector("#fillImg");
+      var imgElem = document.createElement("img");
+      imgElem.className = "searchedImg";
+      imgElem.src = walkAPI;
+      imgSearch.appendChild(imgElem);
     });
   });
 
