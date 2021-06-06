@@ -128,3 +128,6 @@ select {
   right: 0px;
   margin-bottom: 0px;
 }
+.searchedImg {
+  border: 3px solid grey;
+}

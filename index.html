@@ -68,6 +68,8 @@
                 name="search"
                 class="searchInput"
                 id="searchCityInput"
+                maxlength="5"
+                minlength="5"
               />
               <button type="submit" class="searchBtn" id="submitBtn">
                 <i class="fa fa-search"></i>
@@ -76,10 +78,13 @@
 
             <div class="mt-4 propertyDescr">
               <div id="fillImg"></div>
+              <div><h5 class="addressTitle">
+                Property Details:
+              </h5> </div>
               <div class="fillAddress" id="fillAddy">
-                <h5 class="addressTitle">
-                  Searched Property Address:
-                </h5>
+                
+              </div>
+              <div>
                 <p id="fillDescription"></p>
                 <button class="prevBtn" id="priorBtn">Previous</button>
                 <button class="nextBtn" id="postBtn">Next</button>
