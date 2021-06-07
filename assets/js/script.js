@@ -10,7 +10,7 @@ function searchCity(cityname) {
     url: propertyAPI,
     method: "GET",
     headers: {
-      apikey: "55eeabe2829a77c4429574799957c922",
+      apikey: "f03cdca50a0e28cbedc129b325aedc6f",
     },
   }).then(function (response) {
     console.log(response);
@@ -34,7 +34,7 @@ function searchCity(cityname) {
       url: propertyDetails,
       method: "GET",
       headers: {
-        apikey: "55eeabe2829a77c4429574799957c922",
+        apikey: "f03cdca50a0e28cbedc129b325aedc6f",
       },
     }).then(function (response) {
       console.log(response);
