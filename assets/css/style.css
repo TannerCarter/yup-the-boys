@@ -38,10 +38,16 @@ select {
 }
 /*colorizes the footer bolds the text and changes the size of the text */
 .foot {
+  margin-top: 10%;
   background: #3c847c;
   background-size: 150%;
   font-weight: bold;
   font-size: 20px;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 /*colorizes the nav bar and centers the text*/
 .nav {
@@ -56,7 +62,7 @@ select {
 }
 /*colorizes previous button below the text in discription rounds edges and is centered of on the left of the container*/
 .prevBtn {
-  margin-top: 2px;
+  margin-top: 15px;
   width: 70p;
   height: 40px;
   background: #3c847c;
@@ -70,7 +76,7 @@ select {
 }
 /*does the same thing as the prevBtn but positions it on the oposite side*/
 .nextBtn {
-  margin-top: 2px;
+  margin-top: 15px;
   width: 70px;
   height: 40px;
   background: #3c847c;
@@ -106,11 +112,12 @@ select {
   font-weight: bold;
   cursor: pointer;
   font-size: 15px;
+  margin-bottom: 15%;
 }
 .addressTitle {
+  margin-top: 5%;
   font-weight: bold;
   font-size: 18px;
-  border-bottom: 1px solid #3c847c;
 }
 .searchedImg {
   height: 400px;
@@ -120,14 +127,38 @@ select {
   color: #757575;
   padding-bottom: 10px;
 }
-.foot {
-  position: fixed;
-  height: 50px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-}
 .searchedImg {
   border: 3px solid grey;
+}
+@media screen and (max-width: 980px) {
+  .foot {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .foot {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .foot {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+  }
 }
