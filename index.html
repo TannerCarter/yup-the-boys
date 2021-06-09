@@ -168,6 +168,23 @@
       </div>
     </div>
 
+    <div id="alertModal" class="modal fixed w-full h-full top-0 left-0 flex items-center justify-center opacity-0 pointer-events-none">
+      <div class="modal-dialog bg-white rounded-md px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+          <div class="modal-content sm:items-start">
+              <div class="mt-0 text-center sm:ml-2 sm:text-center">
+                  <h4 class="text-lg leading-6 font-medium text-gray-900 items-center" style="text-align: center; margin-bottom: 5px;" id="modal-title">Error</h4>
+              </div>
+              <div class="modal-body mt-0">
+                  <p class="text-sm text-gray-500">Incorrect Zip Code Entered!</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" id="closeBtn" class="w-full inline-flex justify-center rounded-md border border-transparent mt-4 shadow-sm px-14 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm" data-dismiss="modal">
+                      Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
     <footer>
       <p class="text-center foot">&copy; 2021 The Boys LLC.</p>
     </footer>
